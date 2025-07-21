@@ -1,10 +1,10 @@
-🖼️ AI Image Analyzer & Generator
+# 🖼️  AI Image Analyzer & Generator
 A web app to analyze uploaded images using AI and optionally generate new images based on that analysis.
 
-📦 Project Overview
+### 📦 Project Overview
 Frontend: React + TypeScript
 Backend: FastAPI + MongoDB
-Main Features:
+### Main Features:
 
 User authentication (register/login)
 
@@ -12,33 +12,27 @@ Upload and analyze images
 
 Generate new images from analysis
 
-View and download results
 
-🚀 How to Run the Project
+### 🚀 How to Run the Project
 1. Clone the Repository
-bash
-Copy
-Edit
-git clone https://github.com/your-username/ai-image-analyzer.git
-cd ai-image-analyzer
+```bash
+git clone https://github.com/aswanth0123/GALtech_task.git
+cd GALtech_task
+```
 2. Backend Setup (FastAPI)
-bash
-Copy
-Edit
-cd backend
+```bash
 python -m venv venv
 source venv/bin/activate       # or venv\Scripts\activate on Windows
 
 pip install -r requirements.txt
-cp .env.template .env          # Add your environment values
-
 uvicorn app.main:app --reload
+
+```
+
+
 3. Frontend Setup (React + TypeScript)
-bash
-Copy
-Edit
+```bash
 cd frontend
 npm install
-cp .env.template .env          # Add your API URL
-
 npm run dev
+```
